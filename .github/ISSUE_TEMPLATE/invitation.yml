@@ -1,30 +1,31 @@
-name: Invitation to Crystal-Studio-Community Organization
-description: I would like to join this open-source community
-title: "Please invite me to the Crystal-Studio-Community Organization"
+name: Invitation to Odisha Students Code Community (OSCC)
+description: Request an invitation to join the official OSCC GitHub Organization
+title: "Please invite me to the Odisha Students Code Community Organization"
 labels: [invite me to the community]
 body:
   - type: input
     id: name
     attributes:
-      label: Name
-      placeholder: Enter your name or nickname
+      label: Name / Nickname
+      placeholder: Enter your name
     validations:
       required: true
   - type: input
-    id: discordname
+    id: college
     attributes:
-      label: Discord Username
-      placeholder: Enter your Discord username (optional)
+      label: College / Institution
+      placeholder: e.g. OUTR, VSSUT, CET, Ravenshaw, Polytechnic, etc.
     validations:
       required: false
   - type: textarea
-    id: feedback
+    id: interests
     attributes:
-      label: Why do you want to join?
-      placeholder: Let us know what you want to learn or build here!
+      label: What are your technical interests?
+      placeholder: e.g. Web development, Python, Git, UI/UX, AI, Mobile apps
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        We are excited to have you! Click Submit to get your automated invite.
+        Welcome to **Odisha Students Code Community (OSCC)** ❤️! 
+        Once you submit this issue, our bot will automatically dispatch an invitation to your GitHub account and close this issue.

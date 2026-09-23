@@ -1,50 +1,44 @@
-# 💎 Crystal Studio Community Support
+# 🤝 OSCC Connect — Community Onboarding & Support ❤️
 
-**Welcome to our Crystal Studio community support page! 👋**
+**Welcome to the official onboarding and support gateway for the Odisha Students Code Community (OSCC)! 👋**
 
-If you have any questions, you can refer to the community moderators, support team, or read our FAQ below. 🚀
+OSCC is a student-driven, 100% free open-source technology movement connecting students across colleges and universities in Odisha, India.
 
 ---
 
 ## 🟢 💬 Community FAQ
 
-This is a list of all frequently asked questions about this **Crystal Studio Community.** ✨
+### 1️⃣ How do I join the GitHub Organization?
+You can join the organization automatically:
+👉 **[Raise an issue using this template to request an invite! 💌](https://github.com/Odisha-Students-Code-Community/Connect/issues/new?template=invitation.yml)** 👈
+
+Once our automated IssueOps bot processes your request, you will receive an invitation email and notification on GitHub! 🎉
 
 ---
 
-## 🟢 👥 How do I join the Community?
+### 2️⃣ How do I make my membership public on my GitHub profile?
+Follow these 3 quick steps to show the OSCC badge on your personal GitHub profile:
 
-You can join our organization automatically by:
-👉 **[Raising an issue on this repository to request an invite! 💌](https://github.com/Crystal-Studio-Community/Connect/issues/new?template=invitation.yml)** 👈
-
-Once our bot processes your request, you will receive an invitation email! 🎉
-
----
-
-## 🟢 🔓 How to make your organization membership public?
-
-Are you already a member of this community? 🌟  
-**Follow these steps to make this organization public on your GitHub profile so everyone can see it**:
-
-### 1️⃣ Step 1: Go to the People List
-Navigate to the **[Crystal-Studio-Community Homepage](https://github.com/Crystal-Studio-Community)** and click the **People** tab at the top. 🗺️
+1. Go to the **[OSCC Members List](https://github.com/orgs/Odisha-Students-Code-Community/people)**.
+2. In the search box, search for your GitHub username.
+3. On the right side of your username row, click the **Private** dropdown and select **Public**! 🔓
 
 <img src="assets/github1.jpg" alt="Click People Tab" width="600">
-
-### 2️⃣ Step 2: Search for Yourself
-In the search box, enter your **Name or GitHub username** to locate your profile row. 🔍
-
 <img src="assets/github2.jpg" alt="Search Username" width="600">
-
-### 3️⃣ Step 3: Switch from Private to Public
-On the far right of your username row, click the **Private** dropdown and select **Public**. 🔓
-
 <img src="assets/github3.jpg" alt="Change to Public" width="600">
 
 ---
 
-Your organization profile is now public and visible on your personal GitHub profile page! 🥳  
-🔗 **[Check out the member directory here!](https://github.com/orgs/Crystal-Studio-Community/people)**
+## 🌐 Official Links
+- 🌐 **Official Website**: [odisha-students-code-community.github.io](https://odisha-students-code-community.github.io/)
+- 📦 **Website Repository**: [Odisha-Students-Code-Community.github.io](https://github.com/Odisha-Students-Code-Community/Odisha-Students-Code-Community.github.io)
+- 💬 **WhatsApp Community**: [Join Student Group](https://chat.whatsapp.com/invite/OSCC)
+- 📢 **WhatsApp Channel**: [Official Announcements](https://whatsapp.com/channel/OSCC)
+- 🦋 **Bluesky**: [@oscc.bsky.social](https://bsky.app/profile/oscc.bsky.social)
+- 💼 **LinkedIn**: [OSCC Community](https://www.linkedin.com/company/odisha-students-code-community/)
 
-📌 **Did we leave out any important questions?**  
-Feel free to open an issue or drop a message in our Discord! This repository aims to automate the process of adding people to our organization. 🤖
+---
+
+## 📄 License
+This repository is open-sourced under the [MIT License](LICENSE).  
+Made with ❤️ by Odisha Students Code Community.

@@ -16,7 +16,7 @@ jobs:
         with:
           github-token: ${{ secrets.ORG_ADMIN_TOKEN }}
           script: |
-            const org = 'Crystal-Studio-Community';
+            const org = 'Odisha-Students-Code-Community';
             const username = context.payload.issue.user.login;
             const issueNumber = context.issue.number;
 
@@ -37,11 +37,12 @@ jobs:
                 labels: ['invited']
               });
 
-              const commentBody = `### 🎉 Welcome to Crystal-Studio-Community, @${username}! 🚀\n\n` +
-                `An invitation has been sent to your GitHub account. \n\n` +
+              const commentBody = `### 🎉 Welcome to Odisha Students Code Community (OSCC), @${username}! ❤️\n\n` +
+                `An invitation has been sent to your GitHub account to join **${org}**. \n\n` +
                 `👉 **[Click here to accept the invitation](https://github.com/orgs/${org}/invitation)** \n\n` +
                 `Once you join, please remember to **change your organization membership visibility to Public** so it shows up on your profile! \n` +
-                `You can manage this under the [People list](https://github.com/orgs/${org}/people).`;
+                `You can manage this under the [People list](https://github.com/orgs/${org}/people).\n\n` +
+                `Explore our official website & projects: https://odisha-students-code-community.github.io/`;
 
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
@@ -66,7 +67,7 @@ jobs:
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issueNumber,
-                  body: `ℹ️ @${username}, you are already a member of the organization or have a pending invitation!\n\nCheck your status here: https://github.com/orgs/${org}`
+                  body: `ℹ️ @${username}, you are already a member of ${org} or have a pending invitation!\n\nCheck your status here: https://github.com/orgs/${org}`
                 });
               } else {
                 await github.rest.issues.addLabels({
@@ -100,7 +101,7 @@ jobs:
         run: |
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             curl -H "Content-Type: application/json" \
-                 -d "{\"content\": \"🎉 **New Member Joined!** Please welcome **${{ github.event.issue.user.login }}** to the Crystal-Studio-Community! 🚀\"}" \
+                 -d "{\"content\": \"🎉 **New Member Joined!** Please welcome **${{ github.event.issue.user.login }}** to Odisha Students Code Community (OSCC)! ❤️\"}" \
                  "$DISCORD_WEBHOOK_URL"
           else
             echo "Discord Webhook URL is not configured. Skipping notification."
